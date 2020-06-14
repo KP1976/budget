@@ -1,0 +1,17 @@
+[33mcommit a9fec3309c1494ee10fb187b92d15366d606586b[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m
+Author: Krzysztof Pawlowski <kpawlowski1976@gmail.com>
+Date:   Thu May 28 18:16:26 2020 +0200
+
+    Add basic navigation component
+
+[33mcommit 590dea315b4e5ab0b6d2efe879b659875429afa4[m
+Author: Krzysztof Pawlowski <kpawlowski1976@gmail.com>
+Date:   Thu May 28 16:21:04 2020 +0200
+
+    Initial App
+
+[33mcommit 9a8d55732d185c43f8bd00faa6b1878154e0610c[m
+Author: Krzysztof Pawlowski <kpawlowski1976@gmail.com>
+Date:   Thu May 28 16:00:18 2020 +0200
+
+    Initialize project using Create React App
