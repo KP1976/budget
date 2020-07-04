@@ -11,7 +11,7 @@ const initialState = {
 	allCategories: [],
 };
 
-function budget(state = initialState, action) {
+function common(state = initialState, action) {
 	const newLoadingState = { ...state.loadingState };
 
 	switch (action.type) {
@@ -42,4 +42,4 @@ function budget(state = initialState, action) {
 	}
 }
 
-export default budget;
+export default common;
