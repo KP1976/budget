@@ -32,7 +32,7 @@ const Content = styled.div`
 	animation: ${flip} 2.4s cubic-bezier(0, 0.2, 0.8, 1) infinite;
 `;
 
-const LoadingfIndicator = () => {
+const LoadingIndicator = () => {
 	return (
 		<Root>
 			<Content />
@@ -40,4 +40,4 @@ const LoadingfIndicator = () => {
 	);
 };
 
-export default LoadingfIndicator;
+export default LoadingIndicator;
