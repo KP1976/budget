@@ -24,8 +24,6 @@ const AddTransactionForm = ({ onSubmit = noop, categories, groupCategoriesBy }) 
 		[groupedCategoriesByParentName, categories],
 	);
 
-	console.log({ categoryItems });
-
 	return (
 		<Form
 			onSubmit={onSubmit}

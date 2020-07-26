@@ -2,12 +2,16 @@ import React, { Fragment } from 'react';
 import { ThemeProvider } from 'styled-components';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
+import { toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 import GlobalStyles from './index.css';
 
 import theme from 'utils/theme';
 import { Navigation, Wrapper, LoadingIndicator, Button } from 'components';
 import Budget from 'pages/Budget';
+
+toast.configure();
 
 function App({ budget, fetchBudget, fetchBudgetedCategories }) {
 	const { i18n } = useTranslation();

@@ -184,6 +184,22 @@
       "date": "2020-07-25",
       "budgetId": "1",
       "id": "jNoXZf9"
+    },
+    {
+      "description": "Nowa transakcja3",
+      "amount": 10.5,
+      "categoryId": "3",
+      "date": "2020-07-26",
+      "budgetId": "1",
+      "id": "RTNEwb4"
+    },
+    {
+      "description": "Nowa transakcja4",
+      "amount": 10.5,
+      "categoryId": "3",
+      "date": "2020-07-26",
+      "budgetId": "1",
+      "id": "HmIjF6J"
     }
   ]
 }
